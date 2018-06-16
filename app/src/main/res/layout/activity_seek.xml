@@ -4,9 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.wxy.zk2.mvp.view.SeekActivity">
    <com.example.wxy.zk2.baseView.BaseSeek
        android:id="@+id/base_seek"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+   <com.example.wxy.zk2.baseView.BaseViewlist
+       android:id="@+id/baselist"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"/>
 </LinearLayout>
